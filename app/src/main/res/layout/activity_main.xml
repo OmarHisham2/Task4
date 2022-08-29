@@ -7,6 +7,7 @@
     android:background="@color/background"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/TeamA"
         android:layout_width="wrap_content"
@@ -48,8 +49,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="28dp"
         android:backgroundTint="@color/teamA"
-        android:textColor="@color/white"
         android:text="@string/threeP"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/aScore"
         app:layout_constraintStart_toStartOf="@+id/aScore"
         app:layout_constraintTop_toBottomOf="@+id/aScore" />
@@ -60,8 +61,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="28dp"
         android:backgroundTint="@color/teamB"
-        android:textColor="@color/white"
         android:text="@string/threeP"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/bScore"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="@+id/bScore"
@@ -71,10 +72,10 @@
         android:id="@+id/twopoints2"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:textColor="@color/white"
         android:layout_marginTop="48dp"
         android:backgroundTint="@color/teamB"
         android:text="@string/twoP"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/bScore"
         app:layout_constraintStart_toStartOf="@+id/bScore"
         app:layout_constraintTop_toBottomOf="@+id/threepoints2" />
@@ -82,11 +83,11 @@
     <Button
         android:id="@+id/freethrow2"
         android:layout_width="150dp"
-        android:textColor="@color/white"
         android:layout_height="70dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="@color/teamB"
         android:text="@string/freeThrow"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/bScore"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="@+id/bScore"
@@ -104,12 +105,12 @@
 
     <Button
         android:id="@+id/twopoints"
-        android:textColor="@color/white"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="@color/teamA"
         android:text="@string/twoP"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/aScore"
         app:layout_constraintStart_toStartOf="@+id/aScore"
         app:layout_constraintTop_toBottomOf="@+id/threepoints" />
@@ -117,22 +118,22 @@
     <Button
         android:id="@+id/freethrow"
         android:layout_width="150dp"
-        android:textColor="@color/white"
         android:layout_height="70dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="@color/teamA"
         android:text="@string/freeThrow"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/aScore"
         app:layout_constraintStart_toStartOf="@+id/aScore"
         app:layout_constraintTop_toBottomOf="@+id/twopoints" />
 
     <Button
         android:id="@+id/reset"
-        android:textColor="@color/white"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/Reset"
         android:text="@string/reset"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/freethrow2"
         app:layout_constraintStart_toStartOf="@+id/freethrow"
@@ -149,6 +150,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/basketball_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="40dp"
+        android:layout_height="455dp"
+        android:text="|"
+        android:textSize="445sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
